@@ -76,7 +76,6 @@ module picorv32_wrapper #(
 	output [35:0] trace_data
 );
 
-	wire trap;
 	wire tests_passed;
 	reg [31:0] irq;
 
